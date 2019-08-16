@@ -1,0 +1,1 @@
+import yamlfrom selenium import webdriverclass Testnew():    def test_web(self):        self.dict = yaml.load(open(r'\WeWork\data\element.yaml'))        print(self.dict["mgt_tools"])        driver=webdriver.Firefox()        url="https://www.baidu.com"        driver.get(url)

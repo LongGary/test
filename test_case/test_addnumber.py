@@ -1,0 +1,1 @@
+import yamlfrom common.base_page.Contact_Page import Contact_Pageclass Test_Addnumber(Contact_Page):    def setup(self):        self.login()        self.driver.implicitly_wait(5)    def teardown(self):        pass        # self.driver.quit()    def test_Addchinese(self):        self.add_member()    def test_Addeglish(self):        self.add_member()
